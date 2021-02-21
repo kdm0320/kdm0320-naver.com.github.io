@@ -13,7 +13,7 @@ ul{
     list-style:none;
 }
 h1{
-    color: #2c3e50;
+    color: #40407a;
     position: relative;
 }
   .clicked {
@@ -37,6 +37,8 @@ h1{
           opacity: 1;
       }
   }
+ 
+
   
   .bgImage{
     position: absolute;
@@ -46,4 +48,14 @@ h1{
     height:100%;
     z-index: -1;
     animation: fadeIn.0.3s linear;
+ 
+}
+  .letterImage{
+    position: absolute;
+    top:0;
+    left: 420px;
+    width: 500px;
+    height: 100%;
+    z-index: 1;
+    animation: fadeIn 2s linear;
 }
